@@ -1,0 +1,52 @@
++ . /opt/intel/oneapi/setvars.sh intel64
++ script_name=setvars.sh
++ config_file=
++ config_array=
++ component_array=
++ warning_tally=0
++ posix_nl=
+
++ save_args
++ echo  
++ script_args= 
++ _setvars_this_script_name=setvars.sh
++ _setvars_get_proc_name /.post.script
++ [ -n  ]
++ script=/.post.script
++ [ -L /.post.script ]
++ basename -- /.post.script
++ [ setvars.sh = .post.script ]
++ sourcer=
++ sourced_nm=
++ ps -p 66717 -o comm=
++ sourced_sh=sh
++ _setvars_get_proc_name /.post.script
++ [ -n  ]
++ script=/.post.script
++ [ -L /.post.script ]
++ basename -- /.post.script
++ proc_name=.post.script
++ [ -n  ]
++ [ -n  ]
++ [ -n  ]
++ [ dash = sh ]
++ [ sh = sh ]
++ printf %s: %s .post.script SH_VERSION = unknown
++ sourcer=.post.script: SH_VERSION = unknown
++ sourced_nm=/.post.script: 351: /opt/intel/oneapi/setvars.sh: Bad substitution
++ :
++ printf %s /.post.script: 351: /opt/intel/oneapi/setvars.sh: Bad substitution
++ grep -Eq sh: [0-9]+: .*setvars\.sh: 
++ [  -eq 0 ]
+/.post.script: 352: [: Illegal number: 
++ [  = /.post.script: 351: /opt/intel/oneapi/setvars.sh: Bad substitution ]
++ get_script_path /.post.script: 351: /opt/intel/oneapi/setvars.sh: Bad substitution
++ script=/.post.script: 351: /opt/intel/oneapi/setvars.sh: Bad substitution
++ [ -L /.post.script: 351: /opt/intel/oneapi/setvars.sh: Bad substitution ]
++ command dirname -- /.post.script: 351: /opt/intel/oneapi/setvars.sh: Bad substitution
++ script_dir=/.post.script: 351: /opt/intel/oneapi
++ cd /.post.script: 351: /opt/intel/oneapi
+/.post.script: 251: cd: can't cd to /.post.script: 351: /opt/intel/oneapi
++ script_dir=
++ script_root=
+FATAL:   While performing build: while running engine: exit status 2
